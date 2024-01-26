@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#parent {
+    height: 3000px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* HOMEPAGE */
+
+#home_page {
+    height: 600px;
+    width: 100%;
+    background-image: url(portfolio9.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#logo h2 {
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav_elements a {
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+
+#main {
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid black; */
+    line-height: 35px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#btn1 {
+    height: 20px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#btn2 {
+    height: 20px;
+    width: 100px;
+    font-size: x-small;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#main h1 {
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* SERVICES */
+
+#services {
+    height: 470px;
+    width: 100%;
+    /* border: 5px double maroon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#service1 {
+    width: 100%;
+    /* border: 2px solid black; */
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#same {
+    height: 30px;
+    width: 90px;
+    color: red;
+    background-color: pink;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span {
+    color: red;
+}
+
+#service2 {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes {
+    height: 250px;
+    width: 220px;
+    border: none;
+    box-shadow: 2px 5px 5px 5px;
+    color: lightgray;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+i {
+    color: red;
+    font-size: xx-large;
+}
+
+.boxes h4,
+.boxes p {
+    color: black;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+    height: 1000px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolio1 {
+    width: 100%;
+    /* border: 2px solid black; */
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all {
+    height: 30px;
+    width: 50px;
+    background-color: lightgray;
+}
+
+.all:hover,
+#all {
+    color: white;
+    background-color: red;
+}
+
+#portfolio2 {
+    height: 750px;
+    width: 90%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    height: 210px;
+    width: 330px;
+    box-shadow: 2px 2px 2px 2px;
+    color: lightgray;
+}
+
+/* TEAM  */
+
+#team {
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team1 {
+    width: 100%;
+    /* border: 2px solid black; */
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team2 {
+    height: 330px;
+    width: 90%;
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.members {
+    height: 300px;
+    width: 215px;
+    box-shadow: 2px 2px 2px 2px;
+    color: lightgray;
+}
+
+.members h3,
+p {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* CONTACT */
+
+#contact {
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact1 {
+    width: 100%;
+    /* border: 2px solid black; */
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact2 {
+    height: 250px;
+    width: 90%;
+    /* border: 2px solid blue; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#num1 {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+i,
+#num1 h3 {
+    display: inline;
+}
+
+address,
+#num1 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#num2 {
+    height: 300px;
+    width: 60%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#num2 input {
+    height: 30px;
+    width: 45%;
+    border: 1px solid rgb(37, 35, 35);
+}
+
+#subject input {
+    height: 30px;
+    width: 91%;
+}
+
+textarea {
+    height: 150px;
+    width: 91%;
+    border: 1px solid rgb(37, 35, 35);
+
+}
+
+#subject {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#last {
+    height: 24px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    margin-bottom: 0px;
+    margin-left: 45%;
+}
+
+/* MAKING RESPONSIVE */
+
+@media screen and (max-width:600px) {
+
+    /* PORTFOLIO */
+
+    #portfolio {
+        height: 1500px;
+    }
+
+    #portfolio2 {
+        height: 1300px;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .img,
+    img {
+        width: 230px;
+    }
+
+    /* TEAM */
+
+    #team {
+        height: 900px;
+    }
+
+    #team2 {
+        height: 700px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .members img {
+        width: 215px;
+    }
+
+    /* SERVICES */
+
+    #services {
+        height: 700px;
+    }
+
+    #service2 {
+        width: 100%;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .boxes {
+        height: 200px;
+        margin-top: 20px;
+    }
+}
