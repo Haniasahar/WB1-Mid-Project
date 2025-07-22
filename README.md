@@ -90,9 +90,9 @@ start index.html # Windows
 ```
 
 ## 🚧 Potential Improvements
-• Add smooth scroll effects
-• Include client testimonials
-• Implement contact form
-• Add animated transitions
+- Add smooth scroll effects
+- Include client testimonials
+- Implement contact form
+- Add animated transitions
 
 <div align="center"> <br> <sub>My First Web Project • Created with ❤️ and pure HTML/CSS</sub> </div> 
