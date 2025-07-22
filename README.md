@@ -26,29 +26,32 @@ A modern, clean landing page for a creative digital agency showcasing services a
 
 ## 🚀 Key Sections
 1. Hero Banner
-Eye-catching header with brief agency introduction
+- Eye-catching header with brief agency introduction
 
-Clean call-to-action button
+- Clean call-to-action button
 
 2. Services Showcase
-html
+``` html
 <div class="service-card">
   <h3>Lorem ipsum</h3>
   <p>Voluptatum deleniti atque corrupti quos dolores</p>
 </div>
-3. Portfolio Gallery
-Grid-based project display
+```
 
-Hover effects for better interactivity
+3. Portfolio Gallery
+- Grid-based project display
+
+- Hover effects for better interactivity
 
 4. Responsive Features
-css
+```css
 /* Mobile-first media queries */
 @media (min-width: 768px) {
   .services {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+```
 
 ## 🖥️ How to View
 
@@ -64,11 +67,11 @@ start index.html # Windows
 ```
 
 ## 🌈 What I Learned
-• Semantic HTML5 structure
-• CSS Flexbox and Grid layouts
-• Responsive design principles
-• Media query implementation
-• Image optimization techniques
+- Semantic HTML5 structure
+- CSS Flexbox and Grid layouts
+- Responsive design principles
+- Media query implementation
+- Image optimization techniques
 
 ## 📸 Sample Section (From Your Design)
 ``` html
