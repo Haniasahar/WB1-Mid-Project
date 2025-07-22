@@ -25,7 +25,7 @@ A modern, clean landing page for a creative digital agency showcasing services a
 ```
 
 ## 🚀 Key Sections
-1. **Hero Banner**
+### 1. Hero Banner
 - Eye-catching header with brief agency introduction
 
 - Clean call-to-action button
