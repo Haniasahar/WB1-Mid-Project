@@ -30,7 +30,7 @@ A modern, clean landing page for a creative digital agency showcasing services a
 
 - Clean call-to-action button
 
-2. **Services Showcase**
+### 2. Services Showcase
 ``` html
 <div class="service-card">
   <h3>Lorem ipsum</h3>
@@ -38,12 +38,12 @@ A modern, clean landing page for a creative digital agency showcasing services a
 </div>
 ```
 
-3. **Portfolio Gallery**
+### 3. Portfolio Gallery
 - Grid-based project display
 
 - Hover effects for better interactivity
 
-4. **Responsive Features**
+### 4. Responsive Features
 ```css
 /* Mobile-first media queries */
 @media (min-width: 768px) {
